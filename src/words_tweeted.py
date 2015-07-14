@@ -1,3 +1,8 @@
+'''
+The script reads in a text file (tweets.txt)and writes the total number
+of times each unique word has been seen to an output file (ft1.txt).
+'''
+
 def main():
     f = open('tweet_input/tweets.txt')
 
@@ -10,7 +15,7 @@ def main():
         list_of_words = line.split()
 
         # If the word is not in the dictionary add it and if it is increment
-        #    the value
+        #    the value by one
         for word in list_of_words:
             if len(word) > len_longest_word:
                 len_longest_word = len(word)
