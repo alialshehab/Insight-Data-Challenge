@@ -1,11 +1,8 @@
 '''
-The script reads in a text file (tweets.txt)and writes the running
-median of number of unique words per line to an output file (ft2.txt).
+The script reads in a text file (tweets.txt)and calculates the median number 
+of unique words per line and writes the updated median to an output file
+as lines are read (ft2.txt).
 
-More specifically:
-The script calculates the median number of unique words per tweet,
-and updates this median -- and writes it to an output file-- as tweets
-come in where each tweet is a new line in the input text file.
 '''
 
 from heapq import heappush, heappop
