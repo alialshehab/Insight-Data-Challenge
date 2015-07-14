@@ -1,7 +1,7 @@
 '''
 The script reads in a text file (tweets.txt)and calculates the median number 
 of unique words per line and writes the updated median to an output file
-as lines are read (ft2.txt).
+(ft2.txt) as lines are read.
 
 '''
 
